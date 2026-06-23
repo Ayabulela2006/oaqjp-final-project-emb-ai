@@ -1,0 +1,8 @@
+uction deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.45.49:5000
+Press CTRL+C to quit
+127.0.0.1 - - [22/Jun/2026 19:56:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jun/2026 19:56:19] "GET /static/mywebscript.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jun/2026 19:57:03] "GET /emotionDetector?textToAnalyze=I%20think%20I%20am%20having%20fun HTTP/1.1" 200 -
